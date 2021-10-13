@@ -1,0 +1,12 @@
+name = "DocFree"
+uuid = "34daf6e1-5734-1f35-2c35-f41ad655fe1e"
+authors = ["Abhimanyu Aryan <abhiaryan@xyz.org>"]
+version = "0.0.1"
+
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+[compat]
+DataFrames = "0.21, 0.22"
+julia = "1.2.1"

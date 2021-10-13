@@ -1,0 +1,25 @@
+"""
+    DOCFREE.jl
+Here you are, you found an free package :-)
+"""
+module DocFree
+
+export plusTwo
+
+
+"""
+    plusTwo(x)
+Sum the numeric "2" to whatever it receives as input
+# Arguments
+* `x`: The amount to which we want to add 2
+# Notes
+* Notes can go here
+# Examples
+```julia
+julia> five = plusTwo(3)
+5
+```
+"""
+plusTwo(x) = return x+2
+
+end # module
